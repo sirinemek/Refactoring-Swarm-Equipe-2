@@ -234,7 +234,7 @@ def get_auditor_prompt(target_dir: Path) -> Dict[str, str]:
     """
     
     user_prompt = f"""╔══════════════════════════════════════════════════════════╗
-║              MISSION D'AUDIT DE CODE                     ║
+                      ║              MISSION D'AUDIT DE CODE                     ║
 ╚══════════════════════════════════════════════════════════╝
 
 📂 DOSSIER CIBLE : {target_dir}

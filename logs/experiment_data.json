@@ -1,11 +1,37 @@
 [
-  {
-    "id": "9e82e9b0-9b43-4a78-af43-d5d5ef848a2f",
-    "timestamp": "2025-12-26T01:26:41.177789",
-    "agent": "System",
-    "model": "unknown",
-    "action": "STARTUP",
-    "details": "Target: ./sandbox",
-    "status": "INFO"
-  }
+    {
+        "id": "9e82e9b0-9b43-4a78-af43-d5d5ef848a2f",
+        "timestamp": "2025-12-26T01:26:41.177789",
+        "agent": "System",
+        "model": "unknown",
+        "action": "STARTUP",
+        "details": "Target: ./sandbox",
+        "status": "INFO"
+    },
+    {
+        "id": "955c6964-7365-4d53-a16e-2862d725c8ee",
+        "timestamp": "2026-01-08T21:21:37.516574",
+        "agent": "System",
+        "model": "N/A",
+        "action": "CODE_ANALYSIS",
+        "details": {
+            "input_prompt": "Initialisation sur ./sandbox/test_code",
+            "output_response": "Système démarré avec succès",
+            "target_directory": "sandbox\\test_code"
+        },
+        "status": "SUCCESS"
+    },
+    {
+        "id": "ce92bd6a-0944-4e14-8f64-492c005f01ae",
+        "timestamp": "2026-01-08T21:21:37.601910",
+        "agent": "System",
+        "model": "N/A",
+        "action": "DEBUG",
+        "details": {
+            "input_prompt": "Fin de boucle",
+            "output_response": "Limite d'itérations atteinte",
+            "failed_tests": []
+        },
+        "status": "FAILED"
+    }
 ]

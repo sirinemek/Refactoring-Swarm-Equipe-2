@@ -23,7 +23,7 @@ from typing import Dict, Any
 # ============================================================
 
 # Import des fonctions du prompt Auditeur
-from .auditor_prompts import (
+from src.Prompts.auditor_prompts import (
     get_auditor_prompt,
     get_reaudit_prompt,
     AUDITOR_SYSTEM_PROMPT

@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Dict, List
 
-from utils.The_Toolsmith import (
+from src.utils.TheToolSmith import (
     list_python_files,
     read_file,
     run_pylint
