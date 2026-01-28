@@ -4,7 +4,7 @@ Classe de base pour tous les agents
 from abc import ABC, abstractmethod
 from typing import Dict, Any, List
 from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.schema import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, SystemMessage
 import os
 from dotenv import load_dotenv
 
