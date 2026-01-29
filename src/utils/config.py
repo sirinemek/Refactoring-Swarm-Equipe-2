@@ -45,7 +45,7 @@ LLM_TIMEOUT = 60
 # ============================================================================
 
 # Répertoire racine du projet
-ROOT_DIR = Path(__file__).parent
+ROOT_DIR = Path.cwd() 
 
 # Répertoire sandbox (où le code est copié et modifié)
 SANDBOX_DIR = ROOT_DIR / "sandbox"
