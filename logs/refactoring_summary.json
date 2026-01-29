@@ -1,0 +1,38 @@
+{
+  "workflow_status": "COMPLETED",
+  "files_processed": 1,
+  "files_fixed": 1,
+  "files_validated": 1,
+  "success_rate": 100.0,
+  "quality_metrics": {
+    "average_score_before": 5.16,
+    "average_score_after": 7.38,
+    "improvement": 2.22
+  },
+  "validation_details": {
+    "total_files": 1,
+    "successful_files": 1,
+    "failed_files": 0,
+    "success_rate": 100.0,
+    "average_improvement": 2.22,
+    "successful_list": [
+      "C:\\Users\\User1\\Refactoring-Swarm-Equipe-2\\sandbox\\test\\manager.py"
+    ],
+    "failed_list": []
+  },
+  "logging_stats": {
+    "total_actions": 6,
+    "success_rate": 100.0,
+    "actions_by_agent": {
+      "Auditor_Agent": 2,
+      "Fixer_Agent": 2,
+      "Judge_Agent": 2
+    },
+    "actions_by_type": {
+      "analysis": 2,
+      "fix": 2,
+      "debug": 2
+    }
+  },
+  "sandbox_directory": "C:\\Users\\User1\\Refactoring-Swarm-Equipe-2\\sandbox\\test"
+}

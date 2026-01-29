@@ -1,0 +1,8 @@
+{
+  "execution_id": "16b3f9e7e7a5",
+  "start_time": "2026-01-27T18:29:09.679689",
+  "iterations": [],
+  "final_status": "ERROR",
+  "end_time": "2026-01-27T18:29:09.960868",
+  "error": "[('./sandbox\\\\execution_20260127_180516\\\\execution_20260127_180516\\\\execution_20260127_175408\\\\execution_20260127_175408\\\\execution_20260127_174851\\\\__pycache__\\\\test_simple.cpython-311-pytest-9.0.2.pyc', 'sandbox\\\\execution_20260127_182909\\\\execution_20260127_180516\\\\execution_20260127_180516\\\\execution_20260127_175408\\\\execution_20260127_175408\\\\execution_20260127_174851\\\\__pycache__\\\\test_simple.cpython-311-pytest-9.0.2.pyc', \"[Errno 2] No such file or directory: 'sandbox\\\\\\\\execution_20260127_182909\\\\\\\\execution_20260127_180516\\\\\\\\execution_20260127_180516\\\\\\\\execution_20260127_175408\\\\\\\\execution_20260127_175408\\\\\\\\execution_20260127_174851\\\\\\\\__pycache__\\\\\\\\test_simple.cpython-311-pytest-9.0.2.pyc'\")]"
+}

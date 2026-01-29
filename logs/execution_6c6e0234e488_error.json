@@ -1,0 +1,48 @@
+{
+  "execution_id": "6c6e0234e488",
+  "start_time": "2026-01-27T17:18:56.800671",
+  "iterations": [
+    {
+      "iteration": 1,
+      "start_time": "2026-01-27T17:18:56.932403",
+      "audit": {
+        "directory": "sandbox\\execution_20260127_171856",
+        "total_files": 3,
+        "files_analyzed": 3,
+        "files_failed": 0,
+        "global_quality_score": 8.333333333333334,
+        "total_issues_found": 1,
+        "issues_by_severity": {
+          "HIGH": 0,
+          "MEDIUM": 1,
+          "LOW": 0
+        },
+        "issues_by_type": {
+          "BUG": 0,
+          "STYLE": 0,
+          "QUALITY": 1,
+          "SECURITY": 0,
+          "PERFORMANCE": 0
+        },
+        "all_issues": [
+          {
+            "file": "test_simple.py",
+            "line": 1,
+            "issue_type": "QUALITY",
+            "description": "Erreur lors de l'analyse: Unterminated string starting at: line 2 column 23 (char 24)",
+            "severity": "MEDIUM",
+            "suggestion": "Vérifier la syntaxe du code"
+          }
+        ],
+        "refactoring_plan": [
+          {
+            "priority": 1,
+            "action": "DEBUG",
+            "files": [
+              "test_simple.py"
+            ],
+            "description": "Diagnostiquer les problèmes d'analyse",
+            "estimated_effort": "SMALL"
+          }
+        ],
+        "recommendations": 

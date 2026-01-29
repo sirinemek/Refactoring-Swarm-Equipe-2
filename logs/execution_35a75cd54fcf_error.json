@@ -1,0 +1,8 @@
+{
+  "execution_id": "35a75cd54fcf",
+  "start_time": "2026-01-27T17:54:08.781308",
+  "iterations": [],
+  "final_status": "ERROR",
+  "end_time": "2026-01-27T17:54:09.147476",
+  "error": "Audit failed: Erreur analyse répertoire: 'CodeTools' object has no attribute 'list_files'"
+}

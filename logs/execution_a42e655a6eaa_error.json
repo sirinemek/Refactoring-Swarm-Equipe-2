@@ -1,0 +1,48 @@
+{
+  "execution_id": "a42e655a6eaa",
+  "start_time": "2026-01-27T17:48:51.895548",
+  "iterations": [
+    {
+      "iteration": 1,
+      "start_time": "2026-01-27T17:48:52.002208",
+      "audit": {
+        "directory": "sandbox\\execution_20260127_174851",
+        "total_files": 1,
+        "files_analyzed": 1,
+        "files_failed": 0,
+        "global_quality_score": 5.0,
+        "total_issues_found": 1,
+        "issues_by_severity": {
+          "HIGH": 0,
+          "MEDIUM": 1,
+          "LOW": 0
+        },
+        "issues_by_type": {
+          "BUG": 0,
+          "STYLE": 0,
+          "QUALITY": 1,
+          "SECURITY": 0,
+          "PERFORMANCE": 0
+        },
+        "all_issues": [
+          {
+            "file": "test_simple.py",
+            "line": 1,
+            "issue_type": "QUALITY",
+            "description": "Erreur lors de l'analyse: Expecting property name enclosed in double quotes: line 2 column 359 (char 360)",
+            "severity": "MEDIUM",
+            "suggestion": "Vérifier la syntaxe du code"
+          }
+        ],
+        "refactoring_plan": [
+          {
+            "priority": 1,
+            "action": "DEBUG",
+            "files": [
+              "test_simple.py"
+            ],
+            "description": "Diagnostiquer les problèmes d'analyse",
+            "estimated_effort": "SMALL"
+          }
+        ],
+        "recommendations": 
