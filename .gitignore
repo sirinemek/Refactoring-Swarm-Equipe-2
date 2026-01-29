@@ -1,17 +1,33 @@
-# .gitignore
+# Python
 __pycache__/
-*.pyc
-# .gitignore
-__pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
 venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
 .env
+
+# OS
 .DS_Store
+Thumbs.db
 
-# Dossier de travail temporaire (ne pas récupérer les modifications des étudiants ici)
-sandbox/
+# Project specific
+sandbox/*
+!sandbox/.gitkeep
 
-# LOGS : On ignore tout le dossier logs...
-logs/*
-# ...SAUF le fichier de données final qu'on veut récupérer
-!logs/experiment_data.json
+# Logs (will be force-added for submission)
+# logs/*.json
