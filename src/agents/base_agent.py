@@ -28,10 +28,16 @@ class BaseAgent:
         genai.configure(api_key=config.GOOGLE_API_KEY)
         
         # Initialisation du modèle
+      
         self.model = genai.GenerativeModel(
-            model_name=config.MODEL_NAME,
-            system_instruction=self.system_prompt
-        )
+    model_name=config.MODEL_NAME,
+    system_instruction=self.system_prompt,
+    generation_config=genai.GenerationConfig(
+        temperature=0.0,  # ← AJOUTER CECI (0 = déterministe)
+        top_p=0.95,
+        top_k=40,
+    )
+)
         
         print(f"✅ {self.agent_name} initialisé avec {config.MODEL_NAME}")
     
