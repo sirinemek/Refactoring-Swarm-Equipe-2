@@ -3,35 +3,35 @@
   "files_processed": 1,
   "files_fixed": 1,
   "files_validated": 1,
-  "success_rate": 0.0,
+  "success_rate": 100.0,
   "quality_metrics": {
     "average_score_before": 5.16,
-    "average_score_after": 0,
-    "improvement": -5.16
+    "average_score_after": 9.42,
+    "improvement": 4.26
   },
   "validation_details": {
     "total_files": 1,
-    "successful_files": 0,
-    "failed_files": 1,
-    "success_rate": 0.0,
-    "average_improvement": 0.0,
-    "successful_list": [],
-    "failed_list": [
+    "successful_files": 1,
+    "failed_files": 0,
+    "success_rate": 100.0,
+    "average_improvement": 4.26,
+    "successful_list": [
       "C:\\Users\\User1\\Refactoring-Swarm-Equipe-2\\sandbox\\test\\manager.py"
-    ]
+    ],
+    "failed_list": []
   },
   "logging_stats": {
-    "total_actions": 27,
-    "success_rate": 88.88888888888889,
+    "total_actions": 34,
+    "success_rate": 88.23529411764706,
     "actions_by_agent": {
-      "Auditor_Agent": 9,
-      "Fixer_Agent": 9,
-      "Judge_Agent": 9
+      "Auditor_Agent": 12,
+      "Fixer_Agent": 11,
+      "Judge_Agent": 11
     },
     "actions_by_type": {
-      "analysis": 9,
-      "fix": 9,
-      "debug": 9
+      "analysis": 12,
+      "fix": 11,
+      "debug": 11
     }
   },
   "sandbox_directory": "C:\\Users\\User1\\Refactoring-Swarm-Equipe-2\\sandbox\\test"

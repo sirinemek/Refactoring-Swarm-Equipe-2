@@ -1,8 +1,3 @@
-"""
-Prompts pour l'Agent Testeur/Juge (Judge/Tester Agent)
-Responsable de la validation du code corrigé et de la décision d'acceptation
-"""
-
 # ============================================================================
 # SYSTEM PROMPT - Instructions générales pour l'Agent Testeur/Juge
 # ============================================================================
@@ -75,32 +70,7 @@ Tu dois TOUJOURS répondre en JSON valide avec cette structure exacte:
 - Le feedback doit permettre au Fixer de corriger les problèmes
 - Ne sois PAS trop sévère sur des détails mineurs de style si le code fonctionne
 - Priorité: fonctionnalité > style
-
-**Exemple de Feedback RETRY:**
-```json
-{
-    "decision": "RETRY",
-    "feedback_for_fixer": "Le code contient encore 2 bugs critiques:\n1. Ligne 15: Division par zéro non gérée dans calculate_average()\n2. Ligne 23: Variable 'total' utilisée avant initialisation\nLes tests échouent avec AssertionError. Corrige ces bugs avant resoumission.",
-    "errors_to_fix": [
-        "Division par zéro à la ligne 15",
-        "Variable non initialisée ligne 23"
-    ]
-}
-```
-
-**Exemple de Validation ACCEPT:**
-```json
-{
-    "decision": "ACCEPT",
-    "validation_status": "PASSED",
-    "tests_passed": true,
-    "quality_improved": true,
-    "score_improvement": 3.5,
-    "summary": "Tous les bugs ont été corrigés, les tests passent, et le score Pylint est passé de 4.5 à 8.0. Code validé."
-}
-```
-
-Sois juste, rigoureux et constructif dans tes évaluations."""
+"""
 
 
 # ============================================================================

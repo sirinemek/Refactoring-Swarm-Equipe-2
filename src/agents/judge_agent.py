@@ -109,7 +109,7 @@ class JudgeAgent(BaseAgent):
                 test_output = run_pytest(str(test_file))
             else:
                 # Pas de fichier de test trouvé
-                print(f"⚠️ Aucun fichier de test trouvé pour {file_path.name}")
+              #  print(f"⚠️ Aucun fichier de test trouvé pour {file_path.name}")
                 test_output = "No test file found. Skipping pytest."
             
             return test_output
