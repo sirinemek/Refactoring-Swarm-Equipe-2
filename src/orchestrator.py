@@ -270,10 +270,4 @@ class RefactoringOrchestrator:
         else:
             print("\n❌ MISSION ÉCHOUÉE - Des améliorations sont nécessaires")
         
-        print("\n📝 PROCHAINES ÉTAPES:")
-        print("   1. Vérifiez les fichiers corrigés dans le sandbox")
-        print("   2. Consultez les logs: logs/experiment_data.json")
-        print("   3. Avant de soumettre, exécutez:")
-        print("      git add -f logs/experiment_data.json")
-        print("      git commit -m 'DATA: Submission of experiment logs'")
-        print("      git push origin main")
+       

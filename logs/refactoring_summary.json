@@ -6,32 +6,32 @@
   "success_rate": 100.0,
   "quality_metrics": {
     "average_score_before": 5.16,
-    "average_score_after": 9.42,
-    "improvement": 4.26
+    "average_score_after": 8.07,
+    "improvement": 2.91
   },
   "validation_details": {
     "total_files": 1,
     "successful_files": 1,
     "failed_files": 0,
     "success_rate": 100.0,
-    "average_improvement": 4.26,
+    "average_improvement": 2.91,
     "successful_list": [
       "C:\\Users\\User1\\Refactoring-Swarm-Equipe-2\\sandbox\\test\\manager.py"
     ],
     "failed_list": []
   },
   "logging_stats": {
-    "total_actions": 34,
-    "success_rate": 88.23529411764706,
+    "total_actions": 43,
+    "success_rate": 86.04651162790698,
     "actions_by_agent": {
-      "Auditor_Agent": 12,
-      "Fixer_Agent": 11,
-      "Judge_Agent": 11
+      "Auditor_Agent": 15,
+      "Fixer_Agent": 15,
+      "Judge_Agent": 13
     },
     "actions_by_type": {
-      "analysis": 12,
-      "fix": 11,
-      "debug": 11
+      "analysis": 15,
+      "fix": 15,
+      "debug": 13
     }
   },
   "sandbox_directory": "C:\\Users\\User1\\Refactoring-Swarm-Equipe-2\\sandbox\\test"
